@@ -15,6 +15,9 @@ public class ProgramType implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "Business Activity 1")
    private java.lang.String businessActivity1;
 
+   @org.kie.api.definition.type.Label(value = "Business Activity 2")
+   private java.lang.String businessActivity2;
+
    public ProgramType()
    {
    }
@@ -39,10 +42,22 @@ public class ProgramType implements java.io.Serializable
       this.businessActivity1 = businessActivity1;
    }
 
-   public ProgramType(java.lang.String type, java.lang.String businessActivity1)
+   public java.lang.String getBusinessActivity2()
+   {
+      return this.businessActivity2;
+   }
+
+   public void setBusinessActivity2(java.lang.String businessActivity2)
+   {
+      this.businessActivity2 = businessActivity2;
+   }
+
+   public ProgramType(java.lang.String type, java.lang.String businessActivity1,
+         java.lang.String businessActivity2)
    {
       this.type = type;
       this.businessActivity1 = businessActivity1;
+      this.businessActivity2 = businessActivity2;
    }
 
 }
