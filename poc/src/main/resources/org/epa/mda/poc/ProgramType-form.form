@@ -1,7 +1,0 @@
-
-<form id="490902160">
-<property name="name" value="ProgramType-form.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="programTypeIn" name="#E9E371" type="dataModelerEntry" outId="programTypeOut" value="org.epa.mda.poc.ProgramType" id="programType"/>
-</form>
