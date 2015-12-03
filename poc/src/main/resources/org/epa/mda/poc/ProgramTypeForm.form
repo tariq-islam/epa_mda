@@ -3,4 +3,31 @@
 <property name="name" value="ProgramTypeForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="1" name="programType_businessActivity1" type="InputText" id="1878909935">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;businessActivity1 (programType)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="programTypeIn/businessActivity1"/>
+<property name="outputBinding" value="programTypeOut/businessActivity1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="programType_businessActivity2" type="InputText" id="1178716783">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;businessActivity2 (programType)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="programTypeIn/businessActivity2"/>
+<property name="outputBinding" value="programTypeOut/businessActivity2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="programType_type" type="InputText" id="211549276">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;type (programType)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="programTypeIn/type"/>
+<property name="outputBinding" value="programTypeOut/type"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="programTypeIn" name="#BBBBBB" type="dataModelerEntry" outId="programTypeOut" value="org.epa.mda.poc.ProgramType" id="programType"/>
 </form>
