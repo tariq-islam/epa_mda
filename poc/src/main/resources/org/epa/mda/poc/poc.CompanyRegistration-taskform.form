@@ -32,5 +32,4 @@
 <property name="defaultSubform" value="ProgramTypeForm.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<dataHolder inputId="companyIn" name="#E9E371" type="dataModelerEntry" outId="companyOut" value="org.epa.mda.poc.Company" id="company"/>
 </form>
