@@ -3,4 +3,5 @@
 <property name="name" value="poc.CompanyRegistration-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="companyOut" value="org.epa.mda.poc.Company" id="company"/>
 </form>
