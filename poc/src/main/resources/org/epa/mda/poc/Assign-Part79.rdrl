@@ -8,7 +8,5 @@ rule "Assign-Part79"
 	when
 		comp : Company( programType in ( "Gasoline", "Petroleum" ) )
 	then
-		modify( comp ) {
-				setPart80( true )
-		}
+		comp.setPart79( true );
 end
