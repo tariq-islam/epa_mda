@@ -9,12 +9,18 @@ public class Company implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Name")
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
-   @org.kie.api.definition.type.Label(value = "Address")
+   @org.kie.api.definition.type.Label("Address")
    private java.lang.String address;
-   @org.kie.api.definition.type.Label(value = "Program Type")
+   @org.kie.api.definition.type.Label("Program Type")
    private org.epa.mda.poc.ProgramType programType;
+
+   @org.kie.api.definition.type.Label(value = "Part 79")
+   private java.lang.Boolean part79;
+
+   @org.kie.api.definition.type.Label(value = "Part 80")
+   private java.lang.Boolean part80;
 
    public Company()
    {
@@ -50,12 +56,35 @@ public class Company implements java.io.Serializable
       this.programType = programType;
    }
 
+   public java.lang.Boolean getPart79()
+   {
+      return this.part79;
+   }
+
+   public void setPart79(java.lang.Boolean part79)
+   {
+      this.part79 = part79;
+   }
+
+   public java.lang.Boolean getPart80()
+   {
+      return this.part80;
+   }
+
+   public void setPart80(java.lang.Boolean part80)
+   {
+      this.part80 = part80;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
-         org.epa.mda.poc.ProgramType programType)
+         org.epa.mda.poc.ProgramType programType, java.lang.Boolean part79,
+         java.lang.Boolean part80)
    {
       this.name = name;
       this.address = address;
       this.programType = programType;
+      this.part79 = part79;
+      this.part80 = part80;
    }
 
 }
