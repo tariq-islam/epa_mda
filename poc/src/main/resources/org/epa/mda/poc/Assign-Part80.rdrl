@@ -9,4 +9,5 @@ rule "Assign-Part80"
 		comp : Company( programType1 in ( "Gasoline", "Petroleum" ) || programType2 in ( "Gasoline", "Petroleum" ) )
 	then
 		comp.setPart80( true );
+		System.out.println("Part 80 has been assigned.");
 end
