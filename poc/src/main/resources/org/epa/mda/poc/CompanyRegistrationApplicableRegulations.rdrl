@@ -1,0 +1,9 @@
+package org.epa.mda.poc;
+
+import java.lang.Number;
+
+rule "CompanyRegistrationApplicableRegulations"
+	dialect "mvel"
+	when
+	then
+end
