@@ -4,7 +4,8 @@ import java.lang.Number;
 
 rule "CompanyRegistrationApplicableRegulations"
 	dialect "mvel"
-	ruleflow-group "applicable-company-regulations"
+	ruleflow-group "assign-part79"
 	when
+		Company( programType : type in ( "Gasoline", "Petroleum" ) )
 	then
 end
