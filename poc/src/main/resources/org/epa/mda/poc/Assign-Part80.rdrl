@@ -4,7 +4,7 @@ import java.lang.Number;
 
 rule "Assign-Part80"
 	dialect "mvel"
-	ruleflow-group "assign-part80"
+	ruleflow-group "assign-parts"
 	when
 		comp : Company( programType1 in ( "Gasoline", "Petroleum" ) || programType2 in ( "Gasoline", "Petroleum" ) )
 	then
