@@ -6,5 +6,7 @@ rule "Assign-Part80"
 	dialect "mvel"
 	ruleflow-group "assign-part80"
 	when
+		comp : Company( programType1 in ( "Gasoline", "Petroleum" ) || programType2 in ( "Gasoline", "Petroleum" ) )
 	then
+		comp.setPart80( true );
 end
