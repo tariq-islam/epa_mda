@@ -43,8 +43,14 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label("Register As Facility")
    private java.lang.Boolean registerAsFacility;
 
-   @org.kie.api.definition.type.Label(value = "ID")
+   @org.kie.api.definition.type.Label("ID")
    private java.lang.String id;
+
+   @org.kie.api.definition.type.Label(value = "Part 79 Regulations")
+   private java.util.List<java.lang.String> part79Regs;
+
+   @org.kie.api.definition.type.Label(value = "Part 80 Regulations")
+   private java.util.List<java.lang.String> part80Regs;
 
    public Company()
    {
@@ -180,12 +186,34 @@ public class Company implements java.io.Serializable
       this.id = id;
    }
 
+   public java.util.List<java.lang.String> getPart79Regs()
+   {
+      return this.part79Regs;
+   }
+
+   public void setPart79Regs(java.util.List<java.lang.String> part79Regs)
+   {
+      this.part79Regs = part79Regs;
+   }
+
+   public java.util.List<java.lang.String> getPart80Regs()
+   {
+      return this.part80Regs;
+   }
+
+   public void setPart80Regs(java.util.List<java.lang.String> part80Regs)
+   {
+      this.part80Regs = part80Regs;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
          java.lang.String busActivity2, java.lang.String programType2,
          java.lang.String city, java.lang.String county, java.lang.String state,
-         java.lang.Boolean registerAsFacility, java.lang.String id)
+         java.lang.Boolean registerAsFacility, java.lang.String id,
+         java.util.List<java.lang.String> part79Regs,
+         java.util.List<java.lang.String> part80Regs)
    {
       this.name = name;
       this.address = address;
@@ -200,6 +228,8 @@ public class Company implements java.io.Serializable
       this.state = state;
       this.registerAsFacility = registerAsFacility;
       this.id = id;
+      this.part79Regs = part79Regs;
+      this.part80Regs = part80Regs;
    }
 
 }
