@@ -12,6 +12,7 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
    @org.kie.api.definition.type.Label("Address")
+   @org.kie.api.definition.type.Description("to be looked up")
    private java.lang.String address;
    @org.kie.api.definition.type.Label("Part 79")
    private java.lang.Boolean part79;
@@ -23,27 +24,33 @@ public class Company implements java.io.Serializable
    private java.lang.String programType1;
 
    @org.kie.api.definition.type.Label("Business Activity 1")
+   @org.kie.api.definition.type.Description("informs part regulation string list")
    private java.lang.String busActivity1;
 
    @org.kie.api.definition.type.Label("Business Activity 2")
+   @org.kie.api.definition.type.Description("informs part regulation strings list")
    private java.lang.String busActivity2;
 
    @org.kie.api.definition.type.Label("Program Type 2")
    private java.lang.String programType2;
 
    @org.kie.api.definition.type.Label("City")
+   @org.kie.api.definition.type.Description("to be looked up")
    private java.lang.String city;
 
    @org.kie.api.definition.type.Label("County")
+   @org.kie.api.definition.type.Description("to be looked up")
    private java.lang.String county;
 
    @org.kie.api.definition.type.Label("State")
+   @org.kie.api.definition.type.Description("to be looked up")
    private java.lang.String state;
 
    @org.kie.api.definition.type.Label("Register As Facility")
    private java.lang.Boolean registerAsFacility;
 
    @org.kie.api.definition.type.Label("ID")
+   @org.kie.api.definition.type.Description("to be looked up")
    private java.lang.String id;
 
    @org.kie.api.definition.type.Label(value = "Part 79 Regulations")
