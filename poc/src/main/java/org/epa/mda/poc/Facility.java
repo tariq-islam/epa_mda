@@ -9,12 +9,22 @@ public class Facility implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Name")
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
-   @org.kie.api.definition.type.Label(value = "Company Name")
-   private java.lang.String companyName;
-   @org.kie.api.definition.type.Label(value = "Company Address")
-   private java.lang.String companyAddress;
+   @org.kie.api.definition.type.Label("Address")
+   private java.lang.String address;
+
+   @org.kie.api.definition.type.Label(value = "ID")
+   private java.lang.String id;
+
+   @org.kie.api.definition.type.Label(value = "City")
+   private java.lang.String city;
+
+   @org.kie.api.definition.type.Label(value = "County")
+   private java.lang.String county;
+
+   @org.kie.api.definition.type.Label(value = "State")
+   private java.lang.String state;
 
    public Facility()
    {
@@ -30,32 +40,66 @@ public class Facility implements java.io.Serializable
       this.name = name;
    }
 
-   public java.lang.String getCompanyName()
+   public java.lang.String getAddress()
    {
-      return this.companyName;
+      return this.address;
    }
 
-   public void setCompanyName(java.lang.String companyName)
+   public void setAddress(java.lang.String address)
    {
-      this.companyName = companyName;
+      this.address = address;
    }
 
-   public java.lang.String getCompanyAddress()
+   public java.lang.String getId()
    {
-      return this.companyAddress;
+      return this.id;
    }
 
-   public void setCompanyAddress(java.lang.String companyAddress)
+   public void setId(java.lang.String id)
    {
-      this.companyAddress = companyAddress;
+      this.id = id;
    }
 
-   public Facility(java.lang.String name, java.lang.String companyName,
-         java.lang.String companyAddress)
+   public java.lang.String getCity()
+   {
+      return this.city;
+   }
+
+   public void setCity(java.lang.String city)
+   {
+      this.city = city;
+   }
+
+   public java.lang.String getCounty()
+   {
+      return this.county;
+   }
+
+   public void setCounty(java.lang.String county)
+   {
+      this.county = county;
+   }
+
+   public java.lang.String getState()
+   {
+      return this.state;
+   }
+
+   public void setState(java.lang.String state)
+   {
+      this.state = state;
+   }
+
+   public Facility(java.lang.String name, java.lang.String address,
+         java.lang.String id, java.lang.String city, java.lang.String county,
+         java.lang.String state)
    {
       this.name = name;
-      this.companyName = companyName;
-      this.companyAddress = companyAddress;
+      this.address = address;
+      this.id = id;
+      this.city = city;
+      this.county = county;
+      this.state = state;
    }
 
 }
