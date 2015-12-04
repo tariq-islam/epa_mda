@@ -4,6 +4,7 @@ import java.lang.Number;
 
 rule "Assign-Part79"
 	dialect "mvel"
+	ruleflow-group "assign-part79"
 	when
 	then
 end
