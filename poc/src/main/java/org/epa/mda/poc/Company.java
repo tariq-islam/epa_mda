@@ -31,17 +31,20 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label("Program Type 2")
    private java.lang.String programType2;
 
-   @org.kie.api.definition.type.Label(value = "City")
+   @org.kie.api.definition.type.Label("City")
    private java.lang.String city;
 
-   @org.kie.api.definition.type.Label(value = "County")
+   @org.kie.api.definition.type.Label("County")
    private java.lang.String county;
 
-   @org.kie.api.definition.type.Label(value = "State")
+   @org.kie.api.definition.type.Label("State")
    private java.lang.String state;
 
-   @org.kie.api.definition.type.Label(value = "Register As Facility")
+   @org.kie.api.definition.type.Label("Register As Facility")
    private java.lang.Boolean registerAsFacility;
+
+   @org.kie.api.definition.type.Label(value = "ID")
+   private java.lang.String id;
 
    public Company()
    {
@@ -167,12 +170,22 @@ public class Company implements java.io.Serializable
       this.registerAsFacility = registerAsFacility;
    }
 
+   public java.lang.String getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.String id)
+   {
+      this.id = id;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
          java.lang.String busActivity2, java.lang.String programType2,
          java.lang.String city, java.lang.String county, java.lang.String state,
-         java.lang.Boolean registerAsFacility)
+         java.lang.Boolean registerAsFacility, java.lang.String id)
    {
       this.name = name;
       this.address = address;
@@ -186,6 +199,7 @@ public class Company implements java.io.Serializable
       this.county = county;
       this.state = state;
       this.registerAsFacility = registerAsFacility;
+      this.id = id;
    }
 
 }
