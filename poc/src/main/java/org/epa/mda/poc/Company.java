@@ -28,8 +28,17 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label("Business Activity 2")
    private java.lang.String busActivity2;
 
-   @org.kie.api.definition.type.Label(value = "Program Type 2")
+   @org.kie.api.definition.type.Label("Program Type 2")
    private java.lang.String programType2;
+
+   @org.kie.api.definition.type.Label(value = "City")
+   private java.lang.String city;
+
+   @org.kie.api.definition.type.Label(value = "County")
+   private java.lang.String county;
+
+   @org.kie.api.definition.type.Label(value = "State")
+   private java.lang.String state;
 
    public Company()
    {
@@ -115,10 +124,41 @@ public class Company implements java.io.Serializable
       this.programType2 = programType2;
    }
 
+   public java.lang.String getCity()
+   {
+      return this.city;
+   }
+
+   public void setCity(java.lang.String city)
+   {
+      this.city = city;
+   }
+
+   public java.lang.String getCounty()
+   {
+      return this.county;
+   }
+
+   public void setCounty(java.lang.String county)
+   {
+      this.county = county;
+   }
+
+   public java.lang.String getState()
+   {
+      return this.state;
+   }
+
+   public void setState(java.lang.String state)
+   {
+      this.state = state;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
-         java.lang.String busActivity2, java.lang.String programType2)
+         java.lang.String busActivity2, java.lang.String programType2,
+         java.lang.String city, java.lang.String county, java.lang.String state)
    {
       this.name = name;
       this.address = address;
@@ -128,6 +168,9 @@ public class Company implements java.io.Serializable
       this.busActivity1 = busActivity1;
       this.busActivity2 = busActivity2;
       this.programType2 = programType2;
+      this.city = city;
+      this.county = county;
+      this.state = state;
    }
 
 }
