@@ -27,7 +27,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="outputBinding" value="ticketNumber"/>
+<property name="outputBinding" value="ticketNumberOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="companyIn" name="#E9E371" type="dataModelerEntry" outId="companyOut" value="org.epa.mda.poc.Company" id="company"/>
