@@ -3,35 +3,42 @@
 <property name="name" value="poc.CompanyRegistration-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="company_name" type="InputText" id="676148011">
+<field position="0" name="company_name" type="InputText" id="866445799">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;name (company)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="company/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="company_address" type="InputText" id="1247496027">
+<field position="1" name="company_address" type="InputText" id="1149214337">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;address (company)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="company/address"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="company_programType" type="InputText" id="1396221968">
+<field position="2" name="company_programType1" type="InputText" id="1268668284">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;programType (company)quot;"/>
+<property name="label" value="quot;enquot;,quot;programType1 (company)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="company/programType"/>
+<property name="outputBinding" value="company/programType1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="company_busActivity1" type="InputText" id="681453099">
+<field position="3" name="company_busActivity1" type="InputText" id="464992442">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;busActivity1 (company)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="company/busActivity1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="company_busActivity2" type="InputText" id="1355394699">
+<field position="4" name="company_programType2" type="InputText" id="1500705889">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;programType2 (company)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="company/programType2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="company_busActivity2" type="InputText" id="1703861105">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;busActivity2 (company)quot;"/>
 <property name="readonly" value="false"/>
