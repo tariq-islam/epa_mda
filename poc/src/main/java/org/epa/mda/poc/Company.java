@@ -40,6 +40,9 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "State")
    private java.lang.String state;
 
+   @org.kie.api.definition.type.Label(value = "Register As Facility")
+   private java.lang.Boolean registerAsFacility;
+
    public Company()
    {
    }
@@ -154,11 +157,22 @@ public class Company implements java.io.Serializable
       this.state = state;
    }
 
+   public java.lang.Boolean getRegisterAsFacility()
+   {
+      return this.registerAsFacility;
+   }
+
+   public void setRegisterAsFacility(java.lang.Boolean registerAsFacility)
+   {
+      this.registerAsFacility = registerAsFacility;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
          java.lang.String busActivity2, java.lang.String programType2,
-         java.lang.String city, java.lang.String county, java.lang.String state)
+         java.lang.String city, java.lang.String county, java.lang.String state,
+         java.lang.Boolean registerAsFacility)
    {
       this.name = name;
       this.address = address;
@@ -171,6 +185,7 @@ public class Company implements java.io.Serializable
       this.city = city;
       this.county = county;
       this.state = state;
+      this.registerAsFacility = registerAsFacility;
    }
 
 }
