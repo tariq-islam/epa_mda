@@ -1,8 +1,29 @@
 <scenario>
-  <name>PartTest</name>
+  <name>PartTest.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>Company</type>
+      <fieldData>
+        <field-data>
+          <name>programType1</name>
+          <value>Gasoline</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>comp</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>assign-parts</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <execution-trace/>
+    <expect-rule>
+      <ruleName>Assign-Part80</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.epa.mda.poc</packageName>
