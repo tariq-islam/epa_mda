@@ -2,7 +2,7 @@ package org.epa.mda.poc;
 
 import java.lang.Number;
 
-rule "CompanyRegistrationApplicableRegulations"
+rule "Assign-Part79"
 	dialect "mvel"
 	ruleflow-group "assign-part79"
 	when
