@@ -19,8 +19,8 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label("Part 80")
    private java.lang.Boolean part80;
 
-   @org.kie.api.definition.type.Label("Program Type")
-   private java.lang.String programType;
+   @org.kie.api.definition.type.Label("Program Type 1")
+   private java.lang.String programType1;
 
    @org.kie.api.definition.type.Label("Business Activity 1")
    private java.lang.String busActivity1;
@@ -75,16 +75,6 @@ public class Company implements java.io.Serializable
       this.part80 = part80;
    }
 
-   public java.lang.String getProgramType()
-   {
-      return this.programType;
-   }
-
-   public void setProgramType(java.lang.String programType)
-   {
-      this.programType = programType;
-   }
-
    public java.lang.String getBusActivity1()
    {
       return this.busActivity1;
@@ -105,6 +95,16 @@ public class Company implements java.io.Serializable
       this.busActivity2 = busActivity2;
    }
 
+   public java.lang.String getProgramType1()
+   {
+      return this.programType1;
+   }
+
+   public void setProgramType1(java.lang.String programType1)
+   {
+      this.programType1 = programType1;
+   }
+
    public java.lang.String getProgramType2()
    {
       return this.programType2;
@@ -117,14 +117,14 @@ public class Company implements java.io.Serializable
 
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
-         java.lang.String programType, java.lang.String busActivity1,
+         java.lang.String programType1, java.lang.String busActivity1,
          java.lang.String busActivity2, java.lang.String programType2)
    {
       this.name = name;
       this.address = address;
       this.part79 = part79;
       this.part80 = part80;
-      this.programType = programType;
+      this.programType1 = programType1;
       this.busActivity1 = busActivity1;
       this.busActivity2 = busActivity2;
       this.programType2 = programType2;
