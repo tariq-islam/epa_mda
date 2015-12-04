@@ -13,14 +13,20 @@ public class Company implements java.io.Serializable
    private java.lang.String name;
    @org.kie.api.definition.type.Label("Address")
    private java.lang.String address;
-   @org.kie.api.definition.type.Label("Program Type")
-   private org.epa.mda.poc.ProgramType programType;
-
    @org.kie.api.definition.type.Label(value = "Part 79")
    private java.lang.Boolean part79;
 
    @org.kie.api.definition.type.Label(value = "Part 80")
    private java.lang.Boolean part80;
+
+   @org.kie.api.definition.type.Label(value = "Program Type")
+   private java.lang.String programType;
+
+   @org.kie.api.definition.type.Label(value = "Business Activity 1")
+   private java.lang.String busActivity1;
+
+   @org.kie.api.definition.type.Label(value = "Business Activity 2")
+   private java.lang.String busActivity2;
 
    public Company()
    {
@@ -46,16 +52,6 @@ public class Company implements java.io.Serializable
       this.address = address;
    }
 
-   public org.epa.mda.poc.ProgramType getProgramType()
-   {
-      return this.programType;
-   }
-
-   public void setProgramType(org.epa.mda.poc.ProgramType programType)
-   {
-      this.programType = programType;
-   }
-
    public java.lang.Boolean getPart79()
    {
       return this.part79;
@@ -76,15 +72,48 @@ public class Company implements java.io.Serializable
       this.part80 = part80;
    }
 
+   public java.lang.String getProgramType()
+   {
+      return this.programType;
+   }
+
+   public void setProgramType(java.lang.String programType)
+   {
+      this.programType = programType;
+   }
+
+   public java.lang.String getBusActivity1()
+   {
+      return this.busActivity1;
+   }
+
+   public void setBusActivity1(java.lang.String busActivity1)
+   {
+      this.busActivity1 = busActivity1;
+   }
+
+   public java.lang.String getBusActivity2()
+   {
+      return this.busActivity2;
+   }
+
+   public void setBusActivity2(java.lang.String busActivity2)
+   {
+      this.busActivity2 = busActivity2;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
-         org.epa.mda.poc.ProgramType programType, java.lang.Boolean part79,
-         java.lang.Boolean part80)
+         java.lang.Boolean part79, java.lang.Boolean part80,
+         java.lang.String programType, java.lang.String busActivity1,
+         java.lang.String busActivity2)
    {
       this.name = name;
       this.address = address;
-      this.programType = programType;
       this.part79 = part79;
       this.part80 = part80;
+      this.programType = programType;
+      this.busActivity1 = busActivity1;
+      this.busActivity2 = busActivity2;
    }
 
 }
