@@ -9,4 +9,5 @@ rule "Assign-Part79"
 		comp : Company( programType in ( "Gasoline", "Petroleum" ) )
 	then
 		comp.setPart79( true );
+		System.out.println("Part 79 has been assigned");
 end
