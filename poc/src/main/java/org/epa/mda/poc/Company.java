@@ -13,20 +13,23 @@ public class Company implements java.io.Serializable
    private java.lang.String name;
    @org.kie.api.definition.type.Label("Address")
    private java.lang.String address;
-   @org.kie.api.definition.type.Label(value = "Part 79")
+   @org.kie.api.definition.type.Label("Part 79")
    private java.lang.Boolean part79;
 
-   @org.kie.api.definition.type.Label(value = "Part 80")
+   @org.kie.api.definition.type.Label("Part 80")
    private java.lang.Boolean part80;
 
-   @org.kie.api.definition.type.Label(value = "Program Type")
+   @org.kie.api.definition.type.Label("Program Type")
    private java.lang.String programType;
 
-   @org.kie.api.definition.type.Label(value = "Business Activity 1")
+   @org.kie.api.definition.type.Label("Business Activity 1")
    private java.lang.String busActivity1;
 
-   @org.kie.api.definition.type.Label(value = "Business Activity 2")
+   @org.kie.api.definition.type.Label("Business Activity 2")
    private java.lang.String busActivity2;
+
+   @org.kie.api.definition.type.Label(value = "Program Type 2")
+   private java.lang.String programType2;
 
    public Company()
    {
@@ -102,10 +105,20 @@ public class Company implements java.io.Serializable
       this.busActivity2 = busActivity2;
    }
 
+   public java.lang.String getProgramType2()
+   {
+      return this.programType2;
+   }
+
+   public void setProgramType2(java.lang.String programType2)
+   {
+      this.programType2 = programType2;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType, java.lang.String busActivity1,
-         java.lang.String busActivity2)
+         java.lang.String busActivity2, java.lang.String programType2)
    {
       this.name = name;
       this.address = address;
@@ -114,6 +127,7 @@ public class Company implements java.io.Serializable
       this.programType = programType;
       this.busActivity1 = busActivity1;
       this.busActivity2 = busActivity2;
+      this.programType2 = programType2;
    }
 
 }
