@@ -6,6 +6,8 @@ rule "Assign-Part79"
 	dialect "mvel"
 	ruleflow-group "assign-part79"
 	when
+		comp : Company( programType1 in ( "Gasoline", "Petroleum" ) || programType2 in ( "Gasoline", "Petroleum" ) )
 	then
+		comp.setPart79( true );
 		System.out.println("Part 79 has been assigned");
 end
