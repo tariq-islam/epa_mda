@@ -6,6 +6,5 @@ rule "Assign-Part79"
 	dialect "mvel"
 	ruleflow-group "assign-part79"
 	when
-		Company( type in ( "Gasoline", "Petroleum" ) )
 	then
 end
