@@ -62,6 +62,9 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "Supplemental Location")
    private java.lang.String supplementalLocation;
 
+   @org.kie.api.definition.type.Label(value = "Zip Code")
+   private java.lang.String zip;
+
    public Company()
    {
    }
@@ -226,6 +229,16 @@ public class Company implements java.io.Serializable
       this.supplementalLocation = supplementalLocation;
    }
 
+   public java.lang.String getZip()
+   {
+      return this.zip;
+   }
+
+   public void setZip(java.lang.String zip)
+   {
+      this.zip = zip;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
@@ -234,7 +247,7 @@ public class Company implements java.io.Serializable
          java.lang.Boolean registerAsFacility, java.lang.String id,
          java.util.List<java.lang.String> part79Regs,
          java.util.List<java.lang.String> part80Regs,
-         java.lang.String supplementalLocation)
+         java.lang.String supplementalLocation, java.lang.String zip)
    {
       this.name = name;
       this.address = address;
@@ -252,6 +265,7 @@ public class Company implements java.io.Serializable
       this.part79Regs = part79Regs;
       this.part80Regs = part80Regs;
       this.supplementalLocation = supplementalLocation;
+      this.zip = zip;
    }
 
 }
