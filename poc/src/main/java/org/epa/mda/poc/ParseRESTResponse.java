@@ -32,9 +32,9 @@ restOutput = "<Results><FRSFacility><RegistryId>110012168359</RegistryId><Facili
 				company.setLatitude(splitArray[20]);
 				company.setLongitude(splitArray[22]);
 			}
-		System.out.println(comp.toString());
+		System.out.println(company.toString());
 			
-	}
+	
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
