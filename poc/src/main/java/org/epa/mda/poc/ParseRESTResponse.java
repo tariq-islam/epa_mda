@@ -13,6 +13,7 @@ public class ParseRESTResponse {
 	public static void parseResponse() {
 		try {
 			ksession = readKnowledgeBase();
+			System.out.println("Got the ksession, in the ParseRESTResponse class!");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
