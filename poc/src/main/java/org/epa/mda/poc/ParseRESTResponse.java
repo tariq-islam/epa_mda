@@ -13,7 +13,27 @@ public class ParseRESTResponse {
 	public static void parseResponse(Company company, String restOutput) {
 		try {
 			ksession = readKnowledgeBase();
-			System.out.println("Response Output from REST call:\n " + restOutput);
+			System.out.println(restOutput);
+			String [] splitArray = restOutput.split("</*\\w+/*>");
+			if (splitArray != null) {
+				for (int i = 0; i < splitArray.length; i++) {
+					System.out.println(i + " " + splitArray[i]);
+				}
+				company.setId(splitArray[3]);
+				company.setName(splitArray[5]);
+				company.setAddress(splitArray[7]);
+				company.setSupplementalLocation("");
+				company.setCity(splitArray[10]);
+				company.setCounty(splitArray[12]);
+				company.setState(splitArray[14]);
+				company.setZip(splitArray[16]);
+				company.setFipsCode(splitArray[18]);
+				company.setLatitude(splitArray[20]);
+				company.setLongitude(splitArray[22]);
+			}
+		System.out.println(comp.toString());
+			
+	}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
