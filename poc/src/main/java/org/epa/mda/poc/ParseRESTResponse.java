@@ -10,10 +10,10 @@ public class ParseRESTResponse {
 	static KieBase kbase;
 	static KieSession ksession;
 
-	public static void parseResponse(Company company) {
+	public static void parseResponse(Company company, String restOutput) {
 		try {
 			ksession = readKnowledgeBase();
-			System.out.println("Got the ksession, in the ParseRESTResponse class! Company name is: " + company.getName());
+			System.out.println("Response Output from REST call:\n " + restOutput);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
