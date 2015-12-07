@@ -5,7 +5,7 @@ import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
-public static class ParseRESTResponse {
+public class ParseRESTResponse {
 
 	static KieBase kbase;
 	static KieSession ksession;
