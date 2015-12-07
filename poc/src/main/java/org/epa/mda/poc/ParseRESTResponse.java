@@ -15,7 +15,6 @@ public class ParseRESTResponse {
 		try {
 			ksession = readKnowledgeBase();
 //restOutput = "<Results><FRSFacility><RegistryId>110012168359</RegistryId><FacilityName>VFL TECHNOLOGY CORPORATION - PORTABLE 61434</FacilityName><LocationAddress>538 OYSTER POINT ROAD</LocationAddress><SupplementalLocation/><CityName>NEWPORT NEWS</CityName><CountyName>NEWPORT NEWS CITY</CountyName><StateAbbr>VA</StateAbbr><ZipCode>23602-6920</ZipCode><FIPSCode>51700</FIPSCode><Latitude83>37.10338</Latitude83><Longitude83>-76.49904</Longitude83></FRSFacility></Results>";
-			System.out.println(restOutput);
 			String [] splitArray = restOutput.split("</*\\w+/*>");
 			if (splitArray != null) {
 				for (int i = 0; i < splitArray.length; i++) {
@@ -33,7 +32,6 @@ public class ParseRESTResponse {
 				company.setLatitude(splitArray[20]);
 				company.setLongitude(splitArray[22]);
 			}
-		System.out.println(company.toString());
 			
 	
 		} catch (Exception e) {
