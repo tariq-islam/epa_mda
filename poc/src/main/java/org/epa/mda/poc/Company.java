@@ -53,11 +53,14 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Description("to be looked up")
    private java.lang.String id;
 
-   @org.kie.api.definition.type.Label(value = "Part 79 Regulations")
+   @org.kie.api.definition.type.Label("Part 79 Regulations")
    private java.util.List<java.lang.String> part79Regs;
 
-   @org.kie.api.definition.type.Label(value = "Part 80 Regulations")
+   @org.kie.api.definition.type.Label("Part 80 Regulations")
    private java.util.List<java.lang.String> part80Regs;
+
+   @org.kie.api.definition.type.Label(value = "Supplemental Location")
+   private java.lang.String supplementalLocation;
 
    public Company()
    {
@@ -213,6 +216,16 @@ public class Company implements java.io.Serializable
       this.part80Regs = part80Regs;
    }
 
+   public java.lang.String getSupplementalLocation()
+   {
+      return this.supplementalLocation;
+   }
+
+   public void setSupplementalLocation(java.lang.String supplementalLocation)
+   {
+      this.supplementalLocation = supplementalLocation;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
@@ -220,7 +233,8 @@ public class Company implements java.io.Serializable
          java.lang.String city, java.lang.String county, java.lang.String state,
          java.lang.Boolean registerAsFacility, java.lang.String id,
          java.util.List<java.lang.String> part79Regs,
-         java.util.List<java.lang.String> part80Regs)
+         java.util.List<java.lang.String> part80Regs,
+         java.lang.String supplementalLocation)
    {
       this.name = name;
       this.address = address;
@@ -237,6 +251,7 @@ public class Company implements java.io.Serializable
       this.id = id;
       this.part79Regs = part79Regs;
       this.part80Regs = part80Regs;
+      this.supplementalLocation = supplementalLocation;
    }
 
 }
