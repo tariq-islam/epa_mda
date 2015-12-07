@@ -65,6 +65,9 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "Zip Code")
    private java.lang.String zip;
 
+   @org.kie.api.definition.type.Label(value = "FIPS Code")
+   private java.lang.String fipsCode;
+
    public Company()
    {
    }
@@ -239,6 +242,16 @@ public class Company implements java.io.Serializable
       this.zip = zip;
    }
 
+   public java.lang.String getFipsCode()
+   {
+      return this.fipsCode;
+   }
+
+   public void setFipsCode(java.lang.String fipsCode)
+   {
+      this.fipsCode = fipsCode;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
@@ -247,7 +260,8 @@ public class Company implements java.io.Serializable
          java.lang.Boolean registerAsFacility, java.lang.String id,
          java.util.List<java.lang.String> part79Regs,
          java.util.List<java.lang.String> part80Regs,
-         java.lang.String supplementalLocation, java.lang.String zip)
+         java.lang.String supplementalLocation, java.lang.String zip,
+         java.lang.String fipsCode)
    {
       this.name = name;
       this.address = address;
@@ -266,6 +280,7 @@ public class Company implements java.io.Serializable
       this.part80Regs = part80Regs;
       this.supplementalLocation = supplementalLocation;
       this.zip = zip;
+      this.fipsCode = fipsCode;
    }
 
 }
