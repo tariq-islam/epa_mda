@@ -68,6 +68,12 @@ public class Company implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "FIPS Code")
    private java.lang.String fipsCode;
 
+   @org.kie.api.definition.type.Label(value = "Latitude")
+   private java.lang.String latitude;
+
+   @org.kie.api.definition.type.Label(value = "Longitude")
+   private java.lang.String longitude;
+
    public Company()
    {
    }
@@ -252,6 +258,26 @@ public class Company implements java.io.Serializable
       this.fipsCode = fipsCode;
    }
 
+   public java.lang.String getLatitude()
+   {
+      return this.latitude;
+   }
+
+   public void setLatitude(java.lang.String latitude)
+   {
+      this.latitude = latitude;
+   }
+
+   public java.lang.String getLongitude()
+   {
+      return this.longitude;
+   }
+
+   public void setLongitude(java.lang.String longitude)
+   {
+      this.longitude = longitude;
+   }
+
    public Company(java.lang.String name, java.lang.String address,
          java.lang.Boolean part79, java.lang.Boolean part80,
          java.lang.String programType1, java.lang.String busActivity1,
@@ -261,7 +287,8 @@ public class Company implements java.io.Serializable
          java.util.List<java.lang.String> part79Regs,
          java.util.List<java.lang.String> part80Regs,
          java.lang.String supplementalLocation, java.lang.String zip,
-         java.lang.String fipsCode)
+         java.lang.String fipsCode, java.lang.String latitude,
+         java.lang.String longitude)
    {
       this.name = name;
       this.address = address;
@@ -281,6 +308,8 @@ public class Company implements java.io.Serializable
       this.supplementalLocation = supplementalLocation;
       this.zip = zip;
       this.fipsCode = fipsCode;
+      this.latitude = latitude;
+      this.longitude = longitude;
    }
 
 }
