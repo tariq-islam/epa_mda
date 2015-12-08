@@ -13,8 +13,6 @@ public class Product implements java.io.Serializable
    private java.lang.String name;
    @org.kie.api.definition.type.Label("Elements")
    private java.util.List<org.epa.mda.poc.Element> elements;
-   @org.kie.api.definition.type.Label("Element")
-   private java.lang.String element;
    @org.kie.api.definition.type.Label("Percent Makeup")
    private java.lang.Integer percentMakeup;
 
@@ -49,16 +47,6 @@ public class Product implements java.io.Serializable
    public void setElements(java.util.List<org.epa.mda.poc.Element> elements)
    {
       this.elements = elements;
-   }
-
-   public java.lang.String getElement()
-   {
-      return this.element;
-   }
-
-   public void setElement(java.lang.String element)
-   {
-      this.element = element;
    }
 
    public java.lang.Integer getPercentMakeup()
@@ -103,13 +91,11 @@ public class Product implements java.io.Serializable
 
    public Product(java.lang.String name,
          java.util.List<org.epa.mda.poc.Element> elements,
-         java.lang.String element, java.lang.Integer percentMakeup,
-         java.lang.String associatedCompany, java.lang.String companyId,
-         java.lang.String productDescription)
+         java.lang.Integer percentMakeup, java.lang.String associatedCompany,
+         java.lang.String companyId, java.lang.String productDescription)
    {
       this.name = name;
       this.elements = elements;
-      this.element = element;
       this.percentMakeup = percentMakeup;
       this.associatedCompany = associatedCompany;
       this.companyId = companyId;
