@@ -38,6 +38,15 @@ public class Facility implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "Longitude")
    private java.lang.String longitude;
 
+   @org.kie.api.definition.type.Label(value = "Associated Company")
+   private java.lang.String associatedCompany;
+
+   @org.kie.api.definition.type.Label(value = "Business Activity 1")
+   private java.lang.String businessActivity1;
+
+   @org.kie.api.definition.type.Label(value = "Business Activity 2")
+   private java.lang.String businessActivity2;
+
    public Facility()
    {
    }
@@ -142,10 +151,42 @@ public class Facility implements java.io.Serializable
       this.longitude = longitude;
    }
 
+   public java.lang.String getAssociatedCompany()
+   {
+      return this.associatedCompany;
+   }
+
+   public void setAssociatedCompany(java.lang.String associatedCompany)
+   {
+      this.associatedCompany = associatedCompany;
+   }
+
+   public java.lang.String getBusinessActivity1()
+   {
+      return this.businessActivity1;
+   }
+
+   public void setBusinessActivity1(java.lang.String businessActivity1)
+   {
+      this.businessActivity1 = businessActivity1;
+   }
+
+   public java.lang.String getBusinessActivity2()
+   {
+      return this.businessActivity2;
+   }
+
+   public void setBusinessActivity2(java.lang.String businessActivity2)
+   {
+      this.businessActivity2 = businessActivity2;
+   }
+
    public Facility(java.lang.String name, java.lang.String address,
          java.lang.String id, java.lang.String city, java.lang.String county,
          java.lang.String state, java.lang.String zip, java.lang.String fips,
-         java.lang.String latitude, java.lang.String longitude)
+         java.lang.String latitude, java.lang.String longitude,
+         java.lang.String associatedCompany, java.lang.String businessActivity1,
+         java.lang.String businessActivity2)
    {
       this.name = name;
       this.address = address;
@@ -157,6 +198,9 @@ public class Facility implements java.io.Serializable
       this.fips = fips;
       this.latitude = latitude;
       this.longitude = longitude;
+      this.associatedCompany = associatedCompany;
+      this.businessActivity1 = businessActivity1;
+      this.businessActivity2 = businessActivity2;
    }
 
 }
