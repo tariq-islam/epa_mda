@@ -1,0 +1,13 @@
+package org.epa.mda.poc;
+
+import java.lang.Number;
+
+rule "FacilityAssign-Part79"
+	dialect "mvel"
+	ruleflow-group "company-assign-parts"
+	when
+		comp : Company( programType1 in ( "Fuel Additive" ) || programType2 in ( "Fuel Additive" ) )
+	then
+		comp.setPart79( true );
+		System.out.println("Part 79 has been assigned");
+end
