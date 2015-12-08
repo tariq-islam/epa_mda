@@ -2,7 +2,7 @@ package org.epa.mda.poc;
 
 import java.lang.Number;
 
-rule "Assign-Part79"
+rule "CompanyAssign-Part79"
 	dialect "mvel"
 	ruleflow-group "assign-parts"
 	when
