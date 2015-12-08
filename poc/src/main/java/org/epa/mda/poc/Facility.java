@@ -14,17 +14,29 @@ public class Facility implements java.io.Serializable
    @org.kie.api.definition.type.Label("Address")
    private java.lang.String address;
 
-   @org.kie.api.definition.type.Label(value = "ID")
+   @org.kie.api.definition.type.Label("ID")
    private java.lang.String id;
 
-   @org.kie.api.definition.type.Label(value = "City")
+   @org.kie.api.definition.type.Label("City")
    private java.lang.String city;
 
-   @org.kie.api.definition.type.Label(value = "County")
+   @org.kie.api.definition.type.Label("County")
    private java.lang.String county;
 
-   @org.kie.api.definition.type.Label(value = "State")
+   @org.kie.api.definition.type.Label("State")
    private java.lang.String state;
+
+   @org.kie.api.definition.type.Label(value = "Zip Code")
+   private java.lang.String zip;
+
+   @org.kie.api.definition.type.Label(value = "FIPS Code")
+   private java.lang.String fips;
+
+   @org.kie.api.definition.type.Label(value = "Latitude")
+   private java.lang.String latitude;
+
+   @org.kie.api.definition.type.Label(value = "Longitude")
+   private java.lang.String longitude;
 
    public Facility()
    {
@@ -90,9 +102,50 @@ public class Facility implements java.io.Serializable
       this.state = state;
    }
 
+   public java.lang.String getZip()
+   {
+      return this.zip;
+   }
+
+   public void setZip(java.lang.String zip)
+   {
+      this.zip = zip;
+   }
+
+   public java.lang.String getFips()
+   {
+      return this.fips;
+   }
+
+   public void setFips(java.lang.String fips)
+   {
+      this.fips = fips;
+   }
+
+   public java.lang.String getLatitude()
+   {
+      return this.latitude;
+   }
+
+   public void setLatitude(java.lang.String latitude)
+   {
+      this.latitude = latitude;
+   }
+
+   public java.lang.String getLongitude()
+   {
+      return this.longitude;
+   }
+
+   public void setLongitude(java.lang.String longitude)
+   {
+      this.longitude = longitude;
+   }
+
    public Facility(java.lang.String name, java.lang.String address,
          java.lang.String id, java.lang.String city, java.lang.String county,
-         java.lang.String state)
+         java.lang.String state, java.lang.String zip, java.lang.String fips,
+         java.lang.String latitude, java.lang.String longitude)
    {
       this.name = name;
       this.address = address;
@@ -100,6 +153,10 @@ public class Facility implements java.io.Serializable
       this.city = city;
       this.county = county;
       this.state = state;
+      this.zip = zip;
+      this.fips = fips;
+      this.latitude = latitude;
+      this.longitude = longitude;
    }
 
 }
