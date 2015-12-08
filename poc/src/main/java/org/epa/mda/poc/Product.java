@@ -24,6 +24,9 @@ public class Product implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "Company ID")
    private java.lang.String companyId;
 
+   @org.kie.api.definition.type.Label(value = "Product Description")
+   private java.lang.String productDescription;
+
    public Product()
    {
    }
@@ -88,10 +91,21 @@ public class Product implements java.io.Serializable
       this.companyId = companyId;
    }
 
+   public java.lang.String getProductDescription()
+   {
+      return this.productDescription;
+   }
+
+   public void setProductDescription(java.lang.String productDescription)
+   {
+      this.productDescription = productDescription;
+   }
+
    public Product(java.lang.String name,
          java.util.List<org.epa.mda.poc.Element> elements,
          java.lang.String element, java.lang.Integer percentMakeup,
-         java.lang.String associatedCompany, java.lang.String companyId)
+         java.lang.String associatedCompany, java.lang.String companyId,
+         java.lang.String productDescription)
    {
       this.name = name;
       this.elements = elements;
@@ -99,6 +113,7 @@ public class Product implements java.io.Serializable
       this.percentMakeup = percentMakeup;
       this.associatedCompany = associatedCompany;
       this.companyId = companyId;
+      this.productDescription = productDescription;
    }
 
 }
