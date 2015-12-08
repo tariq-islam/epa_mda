@@ -3,4 +3,141 @@
 <property name="name" value="Facility_Team_Member_Review-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="facility_name" type="InputText" id="1470389643">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;name (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/name"/>
+<property name="outputBinding" value="facilityOut/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="facility_address" type="InputText" id="172663782">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;address (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/address"/>
+<property name="outputBinding" value="facilityOut/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="facility_city" type="InputText" id="61748010">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;city (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/city"/>
+<property name="outputBinding" value="facilityOut/city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="facility_state" type="InputText" id="1029401967">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;state (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/state"/>
+<property name="outputBinding" value="facilityOut/state"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="facility_zip" type="InputText" id="347101523">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;zip (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/zip"/>
+<property name="outputBinding" value="facilityOut/zip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="facility_county" type="InputText" id="1421705604">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;county (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/county"/>
+<property name="outputBinding" value="facilityOut/county"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="facility_businessActivity1" type="InputText" id="1663716596">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;businessActivity1 (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/businessActivity1"/>
+<property name="outputBinding" value="facilityOut/businessActivity1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="facility_businessActivity2" type="InputText" id="1319556705">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;businessActivity2 (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/businessActivity2"/>
+<property name="outputBinding" value="facilityOut/businessActivity2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="facility_associatedCompany" type="InputText" id="429081995">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;associatedCompany (facility)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="facilityIn/associatedCompany"/>
+<property name="outputBinding" value="facilityOut/associatedCompany"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="facility_part79" type="CheckBox" id="1861609118">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;part79 (facility)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="facilityIn/part79"/>
+<property name="outputBinding" value="facilityOut/part79"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="10" name="facility_part80" type="CheckBox" id="1259172481">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;part80 (facility)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="facilityIn/part80"/>
+<property name="outputBinding" value="facilityOut/part80"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="11" name="ticketNumber" type="InputText" id="655914497">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;ticketNumberIn (ticketNumber)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="ticketNumberIn"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="facilityIn" name="#E9E371" type="dataModelerEntry" outId="facilityOut" value="org.epa.mda.poc.Facility" id="facility"/>
+<dataHolder inputId="ticketNumberIn" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="ticketNumber"/>
 </form>
