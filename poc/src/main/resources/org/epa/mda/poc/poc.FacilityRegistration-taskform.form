@@ -17,14 +17,6 @@
 <property name="outputBinding" value="facility/address"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="facility_associatedCompany" type="InputText" id="527539435">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;associatedCompany (facility)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="facility/associatedCompany"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <field position="2" name="facility_city" type="InputText" id="774875720">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;city (facility)quot;"/>
@@ -46,18 +38,35 @@
 <property name="outputBinding" value="facility/zip"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="facility_businessActivity1" type="InputText" id="1936336151">
+<field position="6" name="facility_businessActivity1" type="InputText" id="1936336151">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;businessActivity1 (facility)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="facility/businessActivity1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="facility_businessActivity2" type="InputText" id="1281345783">
+<field position="7" name="facility_businessActivity2" type="InputText" id="1281345783">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;businessActivity2 (facility)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="facility/businessActivity2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="facility_associatedCompany" type="InputText" id="527539435">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;associatedCompany (facility)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="facility/associatedCompany"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="facility_county" type="InputText" id="2102460725">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;county (facility)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="facility/county"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="facility" value="org.epa.mda.poc.Facility" id="facility"/>
