@@ -9,14 +9,20 @@ public class Product implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Name")
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
-   @org.kie.api.definition.type.Label(value = "Elements")
+   @org.kie.api.definition.type.Label("Elements")
    private java.util.List<org.epa.mda.poc.Element> elements;
-   @org.kie.api.definition.type.Label(value = "Element")
+   @org.kie.api.definition.type.Label("Element")
    private java.lang.String element;
-   @org.kie.api.definition.type.Label(value = "Percent Makeup")
+   @org.kie.api.definition.type.Label("Percent Makeup")
    private java.lang.Integer percentMakeup;
+
+   @org.kie.api.definition.type.Label(value = "Associated Company")
+   private java.lang.String associatedCompany;
+
+   @org.kie.api.definition.type.Label(value = "Company ID")
+   private java.lang.String companyId;
 
    public Product()
    {
@@ -62,14 +68,37 @@ public class Product implements java.io.Serializable
       this.percentMakeup = percentMakeup;
    }
 
+   public java.lang.String getAssociatedCompany()
+   {
+      return this.associatedCompany;
+   }
+
+   public void setAssociatedCompany(java.lang.String associatedCompany)
+   {
+      this.associatedCompany = associatedCompany;
+   }
+
+   public java.lang.String getCompanyId()
+   {
+      return this.companyId;
+   }
+
+   public void setCompanyId(java.lang.String companyId)
+   {
+      this.companyId = companyId;
+   }
+
    public Product(java.lang.String name,
          java.util.List<org.epa.mda.poc.Element> elements,
-         java.lang.String element, java.lang.Integer percentMakeup)
+         java.lang.String element, java.lang.Integer percentMakeup,
+         java.lang.String associatedCompany, java.lang.String companyId)
    {
       this.name = name;
       this.elements = elements;
       this.element = element;
       this.percentMakeup = percentMakeup;
+      this.associatedCompany = associatedCompany;
+      this.companyId = companyId;
    }
 
 }
