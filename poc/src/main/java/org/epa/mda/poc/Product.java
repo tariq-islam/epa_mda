@@ -9,14 +9,14 @@ public class Product implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Company Name")
-   private java.lang.String companyName;
-
    @org.kie.api.definition.type.Label("Company ID")
    private java.lang.String companyId;
 
    @org.kie.api.definition.type.Label(value = "Brand Name")
    private java.lang.String brandName;
+
+   @org.kie.api.definition.type.Label(value = "Company Name")
+   private java.lang.String companyName;
 
    @org.kie.api.definition.type.Label(value = "Address")
    private java.lang.String address;
@@ -35,6 +35,45 @@ public class Product implements java.io.Serializable
 
    @org.kie.api.definition.type.Label(value = "Fuel Type")
    private java.lang.String fuelType;
+
+   @org.kie.api.definition.type.Label(value = "Unleaded Premium Gasoline")
+   private java.lang.Boolean unleadedPremGas;
+
+   @org.kie.api.definition.type.Label(value = "Unleaded Regular Gasoline")
+   private java.lang.Boolean unleadedRegGas;
+
+   @org.kie.api.definition.type.Label(value = "Unleaded Midgrade Gasoline")
+   private java.lang.Boolean unleadedMidGas;
+
+   @org.kie.api.definition.type.Label(value = "Grade 1 Diesel")
+   private java.lang.Boolean grade1Diesel;
+
+   @org.kie.api.definition.type.Label(value = "Grade 2 Diesel")
+   private java.lang.Boolean grade2Diesel;
+
+   @org.kie.api.definition.type.Label(value = "BioDiesel")
+   private java.lang.Boolean bioDiesel;
+
+   @org.kie.api.definition.type.Label(value = "Renewable Diesel")
+   private java.lang.Boolean renewableDiesel;
+
+   @org.kie.api.definition.type.Label(value = "Aromatics Percent by Weight")
+   private java.lang.Integer aromaticsPercent;
+
+   @org.kie.api.definition.type.Label(value = "Olefins Percent by Weight")
+   private java.lang.Integer olefinsPercent;
+
+   @org.kie.api.definition.type.Label(value = "Saturates Percentage by Weight")
+   private java.lang.Integer saturatesPercent;
+
+   @org.kie.api.definition.type.Label(value = "Polynuclear Organic Material Percentage by Weight")
+   private java.lang.Integer polynuclearOrgMatPercent;
+
+   @org.kie.api.definition.type.Label(value = "Sulfur Percentage by Weight")
+   private java.lang.Integer sulfurPercent;
+
+   @org.kie.api.definition.type.Label(value = "Trace Elements Percentage by Weight")
+   private java.lang.Integer traceElementsPercent;
 
    public Product()
    {
@@ -130,21 +169,172 @@ public class Product implements java.io.Serializable
       this.fuelType = fuelType;
    }
 
-   public Product(java.lang.String companyName, java.lang.String companyId,
-         java.lang.String brandName, java.lang.String address,
+   public java.lang.Boolean getUnleadedPremGas()
+   {
+      return this.unleadedPremGas;
+   }
+
+   public void setUnleadedPremGas(java.lang.Boolean unleadedPremGas)
+   {
+      this.unleadedPremGas = unleadedPremGas;
+   }
+
+   public java.lang.Boolean getUnleadedRegGas()
+   {
+      return this.unleadedRegGas;
+   }
+
+   public void setUnleadedRegGas(java.lang.Boolean unleadedRegGas)
+   {
+      this.unleadedRegGas = unleadedRegGas;
+   }
+
+   public java.lang.Boolean getUnleadedMidGas()
+   {
+      return this.unleadedMidGas;
+   }
+
+   public void setUnleadedMidGas(java.lang.Boolean unleadedMidGas)
+   {
+      this.unleadedMidGas = unleadedMidGas;
+   }
+
+   public java.lang.Boolean getGrade1Diesel()
+   {
+      return this.grade1Diesel;
+   }
+
+   public void setGrade1Diesel(java.lang.Boolean grade1Diesel)
+   {
+      this.grade1Diesel = grade1Diesel;
+   }
+
+   public java.lang.Boolean getGrade2Diesel()
+   {
+      return this.grade2Diesel;
+   }
+
+   public void setGrade2Diesel(java.lang.Boolean grade2Diesel)
+   {
+      this.grade2Diesel = grade2Diesel;
+   }
+
+   public java.lang.Boolean getBioDiesel()
+   {
+      return this.bioDiesel;
+   }
+
+   public void setBioDiesel(java.lang.Boolean bioDiesel)
+   {
+      this.bioDiesel = bioDiesel;
+   }
+
+   public java.lang.Boolean getRenewableDiesel()
+   {
+      return this.renewableDiesel;
+   }
+
+   public void setRenewableDiesel(java.lang.Boolean renewableDiesel)
+   {
+      this.renewableDiesel = renewableDiesel;
+   }
+
+   public java.lang.Integer getAromaticsPercent()
+   {
+      return this.aromaticsPercent;
+   }
+
+   public void setAromaticsPercent(java.lang.Integer aromaticsPercent)
+   {
+      this.aromaticsPercent = aromaticsPercent;
+   }
+
+   public java.lang.Integer getOlefinsPercent()
+   {
+      return this.olefinsPercent;
+   }
+
+   public void setOlefinsPercent(java.lang.Integer olefinsPercent)
+   {
+      this.olefinsPercent = olefinsPercent;
+   }
+
+   public java.lang.Integer getSaturatesPercent()
+   {
+      return this.saturatesPercent;
+   }
+
+   public void setSaturatesPercent(java.lang.Integer saturatesPercent)
+   {
+      this.saturatesPercent = saturatesPercent;
+   }
+
+   public java.lang.Integer getPolynuclearOrgMatPercent()
+   {
+      return this.polynuclearOrgMatPercent;
+   }
+
+   public void setPolynuclearOrgMatPercent(
+         java.lang.Integer polynuclearOrgMatPercent)
+   {
+      this.polynuclearOrgMatPercent = polynuclearOrgMatPercent;
+   }
+
+   public java.lang.Integer getSulfurPercent()
+   {
+      return this.sulfurPercent;
+   }
+
+   public void setSulfurPercent(java.lang.Integer sulfurPercent)
+   {
+      this.sulfurPercent = sulfurPercent;
+   }
+
+   public java.lang.Integer getTraceElementsPercent()
+   {
+      return this.traceElementsPercent;
+   }
+
+   public void setTraceElementsPercent(java.lang.Integer traceElementsPercent)
+   {
+      this.traceElementsPercent = traceElementsPercent;
+   }
+
+   public Product(java.lang.String companyId, java.lang.String brandName,
+         java.lang.String companyName, java.lang.String address,
          java.lang.String city, java.lang.String state,
          java.lang.String province, java.lang.String zip,
-         java.lang.String fuelType)
+         java.lang.String fuelType, java.lang.Boolean unleadedPremGas,
+         java.lang.Boolean unleadedRegGas, java.lang.Boolean unleadedMidGas,
+         java.lang.Boolean grade1Diesel, java.lang.Boolean grade2Diesel,
+         java.lang.Boolean bioDiesel, java.lang.Boolean renewableDiesel,
+         java.lang.Integer aromaticsPercent, java.lang.Integer olefinsPercent,
+         java.lang.Integer saturatesPercent,
+         java.lang.Integer polynuclearOrgMatPercent,
+         java.lang.Integer sulfurPercent, java.lang.Integer traceElementsPercent)
    {
-      this.companyName = companyName;
       this.companyId = companyId;
       this.brandName = brandName;
+      this.companyName = companyName;
       this.address = address;
       this.city = city;
       this.state = state;
       this.province = province;
       this.zip = zip;
       this.fuelType = fuelType;
+      this.unleadedPremGas = unleadedPremGas;
+      this.unleadedRegGas = unleadedRegGas;
+      this.unleadedMidGas = unleadedMidGas;
+      this.grade1Diesel = grade1Diesel;
+      this.grade2Diesel = grade2Diesel;
+      this.bioDiesel = bioDiesel;
+      this.renewableDiesel = renewableDiesel;
+      this.aromaticsPercent = aromaticsPercent;
+      this.olefinsPercent = olefinsPercent;
+      this.saturatesPercent = saturatesPercent;
+      this.polynuclearOrgMatPercent = polynuclearOrgMatPercent;
+      this.sulfurPercent = sulfurPercent;
+      this.traceElementsPercent = traceElementsPercent;
    }
 
 }
