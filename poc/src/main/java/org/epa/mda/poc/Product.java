@@ -9,37 +9,27 @@ public class Product implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Name")
-   private java.lang.String name;
+   @org.kie.api.definition.type.Label("Brand Name")
+   private java.lang.String brandName;
    @org.kie.api.definition.type.Label("Elements")
    private java.util.List<org.epa.mda.poc.Element> elements;
    @org.kie.api.definition.type.Label("Percent Makeup")
    private java.lang.Integer percentMakeup;
 
-   @org.kie.api.definition.type.Label(value = "Associated Company")
+   @org.kie.api.definition.type.Label("Associated Company")
    private java.lang.String associatedCompany;
 
-   @org.kie.api.definition.type.Label(value = "Company ID")
+   @org.kie.api.definition.type.Label("Company ID")
    private java.lang.String companyId;
 
-   @org.kie.api.definition.type.Label(value = "Product Description")
+   @org.kie.api.definition.type.Label("Product Description")
    private java.lang.String productDescription;
 
-   @org.kie.api.definition.type.Label(value = "Element Name")
+   @org.kie.api.definition.type.Label("Element Name")
    private java.lang.String elementName;
 
    public Product()
    {
-   }
-
-   public java.lang.String getName()
-   {
-      return this.name;
-   }
-
-   public void setName(java.lang.String name)
-   {
-      this.name = name;
    }
 
    public java.util.List<org.epa.mda.poc.Element> getElements()
@@ -102,13 +92,23 @@ public class Product implements java.io.Serializable
       this.elementName = elementName;
    }
 
-   public Product(java.lang.String name,
+   public java.lang.String getBrandName()
+   {
+      return this.brandName;
+   }
+
+   public void setBrandName(java.lang.String brandName)
+   {
+      this.brandName = brandName;
+   }
+
+   public Product(java.lang.String brandName,
          java.util.List<org.epa.mda.poc.Element> elements,
          java.lang.Integer percentMakeup, java.lang.String associatedCompany,
          java.lang.String companyId, java.lang.String productDescription,
          java.lang.String elementName)
    {
-      this.name = name;
+      this.brandName = brandName;
       this.elements = elements;
       this.percentMakeup = percentMakeup;
       this.associatedCompany = associatedCompany;
