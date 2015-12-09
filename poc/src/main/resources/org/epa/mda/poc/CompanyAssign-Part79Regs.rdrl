@@ -1,9 +1,0 @@
-package org.epa.mda.poc;
-
-import java.lang.Number;
-
-rule "CompanyAssign-Part79Regs"
-	dialect "mvel"
-	when
-	then
-end
