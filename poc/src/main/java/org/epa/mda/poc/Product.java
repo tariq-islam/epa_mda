@@ -9,57 +9,35 @@ public class Product implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Brand Name")
-   private java.lang.String brandName;
-   @org.kie.api.definition.type.Label("Elements")
-   private java.util.List<org.epa.mda.poc.Element> elements;
-   @org.kie.api.definition.type.Label("Percent Makeup")
-   private java.lang.Integer percentMakeup;
-
-   @org.kie.api.definition.type.Label("Associated Company")
-   private java.lang.String associatedCompany;
+   @org.kie.api.definition.type.Label("Company Name")
+   private java.lang.String companyName;
 
    @org.kie.api.definition.type.Label("Company ID")
    private java.lang.String companyId;
 
-   @org.kie.api.definition.type.Label("Product Description")
-   private java.lang.String productDescription;
+   @org.kie.api.definition.type.Label(value = "Brand Name")
+   private java.lang.String brandName;
 
-   @org.kie.api.definition.type.Label("Element Name")
-   private java.lang.String elementName;
+   @org.kie.api.definition.type.Label(value = "Address")
+   private java.lang.String address;
+
+   @org.kie.api.definition.type.Label(value = "City")
+   private java.lang.String city;
+
+   @org.kie.api.definition.type.Label(value = "State")
+   private java.lang.String state;
+
+   @org.kie.api.definition.type.Label(value = "Province")
+   private java.lang.String province;
+
+   @org.kie.api.definition.type.Label(value = "Zip Code")
+   private java.lang.String zip;
+
+   @org.kie.api.definition.type.Label(value = "Fuel Type")
+   private java.lang.String fuelType;
 
    public Product()
    {
-   }
-
-   public java.util.List<org.epa.mda.poc.Element> getElements()
-   {
-      return this.elements;
-   }
-
-   public void setElements(java.util.List<org.epa.mda.poc.Element> elements)
-   {
-      this.elements = elements;
-   }
-
-   public java.lang.Integer getPercentMakeup()
-   {
-      return this.percentMakeup;
-   }
-
-   public void setPercentMakeup(java.lang.Integer percentMakeup)
-   {
-      this.percentMakeup = percentMakeup;
-   }
-
-   public java.lang.String getAssociatedCompany()
-   {
-      return this.associatedCompany;
-   }
-
-   public void setAssociatedCompany(java.lang.String associatedCompany)
-   {
-      this.associatedCompany = associatedCompany;
    }
 
    public java.lang.String getCompanyId()
@@ -72,26 +50,6 @@ public class Product implements java.io.Serializable
       this.companyId = companyId;
    }
 
-   public java.lang.String getProductDescription()
-   {
-      return this.productDescription;
-   }
-
-   public void setProductDescription(java.lang.String productDescription)
-   {
-      this.productDescription = productDescription;
-   }
-
-   public java.lang.String getElementName()
-   {
-      return this.elementName;
-   }
-
-   public void setElementName(java.lang.String elementName)
-   {
-      this.elementName = elementName;
-   }
-
    public java.lang.String getBrandName()
    {
       return this.brandName;
@@ -102,19 +60,91 @@ public class Product implements java.io.Serializable
       this.brandName = brandName;
    }
 
-   public Product(java.lang.String brandName,
-         java.util.List<org.epa.mda.poc.Element> elements,
-         java.lang.Integer percentMakeup, java.lang.String associatedCompany,
-         java.lang.String companyId, java.lang.String productDescription,
-         java.lang.String elementName)
+   public java.lang.String getCompanyName()
    {
-      this.brandName = brandName;
-      this.elements = elements;
-      this.percentMakeup = percentMakeup;
-      this.associatedCompany = associatedCompany;
+      return this.companyName;
+   }
+
+   public void setCompanyName(java.lang.String companyName)
+   {
+      this.companyName = companyName;
+   }
+
+   public java.lang.String getAddress()
+   {
+      return this.address;
+   }
+
+   public void setAddress(java.lang.String address)
+   {
+      this.address = address;
+   }
+
+   public java.lang.String getCity()
+   {
+      return this.city;
+   }
+
+   public void setCity(java.lang.String city)
+   {
+      this.city = city;
+   }
+
+   public java.lang.String getState()
+   {
+      return this.state;
+   }
+
+   public void setState(java.lang.String state)
+   {
+      this.state = state;
+   }
+
+   public java.lang.String getProvince()
+   {
+      return this.province;
+   }
+
+   public void setProvince(java.lang.String province)
+   {
+      this.province = province;
+   }
+
+   public java.lang.String getZip()
+   {
+      return this.zip;
+   }
+
+   public void setZip(java.lang.String zip)
+   {
+      this.zip = zip;
+   }
+
+   public java.lang.String getFuelType()
+   {
+      return this.fuelType;
+   }
+
+   public void setFuelType(java.lang.String fuelType)
+   {
+      this.fuelType = fuelType;
+   }
+
+   public Product(java.lang.String companyName, java.lang.String companyId,
+         java.lang.String brandName, java.lang.String address,
+         java.lang.String city, java.lang.String state,
+         java.lang.String province, java.lang.String zip,
+         java.lang.String fuelType)
+   {
+      this.companyName = companyName;
       this.companyId = companyId;
-      this.productDescription = productDescription;
-      this.elementName = elementName;
+      this.brandName = brandName;
+      this.address = address;
+      this.city = city;
+      this.state = state;
+      this.province = province;
+      this.zip = zip;
+      this.fuelType = fuelType;
    }
 
 }
