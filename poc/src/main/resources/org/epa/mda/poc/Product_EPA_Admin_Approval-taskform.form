@@ -3,6 +3,14 @@
 <property name="name" value="Product_EPA_Admin_Approval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="ticketNumber" type="InputText" id="239345476">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;ticketNumberIn (ticketNumber)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticketNumberIn"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <field position="1" name="811097316" type="CheckBox" id="811097316">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
@@ -31,13 +39,173 @@
 <property name="outputBinding" value="pushBackOut"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="0" name="ticketNumber" type="InputText" id="239345476">
+<field position="4" name="product_brandName" type="InputText" id="1688122052">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;ticketNumberIn (ticketNumber)quot;"/>
+<property name="label" value="quot;enquot;,quot;brandName (product)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="ticketNumberIn"/>
+<property name="inputBinding" value="productIn/brandName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="5" name="product_companyName" type="InputText" id="71703659">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;companyName (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/companyName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="product_companyId" type="InputText" id="1188387213">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;companyId (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/companyId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="product_address" type="InputText" id="1083334898">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="product_city" type="InputText" id="1229688322">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;city (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="product_state" type="InputText" id="1114789572">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;state (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/state"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="product_province" type="InputText" id="1087466562">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;province (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/province"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="product_zip" type="InputText" id="1094592893">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;zip (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/zip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name=":decorator_0" type="Separator" id="739358287">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="13" name="product_unleadedPremGas" type="CheckBox" id="394303095">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;unleadedPremGas (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/unleadedPremGas"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="15" name="product_unleadedRegGas" type="CheckBox" id="892058749">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;unleadedRegGas (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/unleadedRegGas"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="17" name="product_unleadedMidGas" type="CheckBox" id="1268035880">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;unleadedMidGas (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/unleadedMidGas"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="14" name="product_grade1Diesel" type="CheckBox" id="229603528">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;grade1Diesel (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/grade1Diesel"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="16" name="product_grade2Diesel" type="CheckBox" id="316042135">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;grade2Diesel (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/grade2Diesel"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="18" name="product_bioDiesel" type="CheckBox" id="1157313238">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;bioDiesel (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/bioDiesel"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="19" name="product_renewableDiesel" type="CheckBox" id="846903250">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;renewableDiesel (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/renewableDiesel"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="20" name=":decorator_1" type="Separator" id="2104194692">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="21" name="product_aromaticsPercent" type="InputTextInteger" id="676670998">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aromaticsPercent (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/aromaticsPercent"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="22" name="product_olefinsPercent" type="InputTextInteger" id="620262574">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;olefinsPercent (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/olefinsPercent"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="23" name="product_saturatesPercent" type="InputTextInteger" id="1429686787">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;saturatesPercent (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/saturatesPercent"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="24" name="product_polynuclearOrgMatPercent" type="InputTextInteger" id="1264488578">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;polynuclearOrgMatPercent (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/polynuclearOrgMatPercent"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="25" name="product_sulfurPercent" type="InputTextInteger" id="698529826">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sulfurPercent (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/sulfurPercent"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="26" name="product_traceElementsPercent" type="InputTextInteger" id="1658089190">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;traceElementsPercent (product)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="productIn/traceElementsPercent"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="productIn" name="#E9E371" type="dataModelerEntry" outId="" value="org.epa.mda.poc.Product" id="product"/>
 <dataHolder inputId="ticketNumberIn" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="ticketNumber"/>
 </form>
