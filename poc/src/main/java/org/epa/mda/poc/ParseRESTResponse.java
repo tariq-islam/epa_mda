@@ -22,7 +22,7 @@ public class ParseRESTResponse {
 				for (int i = 0; i < splitArray.length; i++) {
 					System.out.println(i + " " + splitArray[i]);
 				}
-				System.out.println("Setting values");
+				System.out.println("Setting " + splitArray.length + " values");
 				company.setId(splitArray[3]);
 				company.setName(splitArray[5]);
 				company.setAddress(splitArray[7]);
