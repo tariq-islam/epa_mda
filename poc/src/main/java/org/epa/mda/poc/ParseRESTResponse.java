@@ -35,9 +35,9 @@ public class ParseRESTResponse {
 				company.setLatitude(splitArray[21]);
 				company.setLongitude(splitArray[23]);
 				System.out.println("Company [id=" + company.getId() + ", name=" + company.getName() + ", address=" + company.getAddress()
-				+ ", supplementalLocation=" + company.getSupplementalLocation + ", city="
+				+ ", supplementalLocation=" + company.getSupplementalLocation() + ", city="
 				+ company.getCity() + ", county=" + company.getCounty() + ", state=" + company.getState() + ", zip="
-				+ company.getZip() + ", FIPSCode=" + company.getFIPSCode() + ", latitude=" + company.getLatitude()
+				+ company.getZip() + ", FIPSCode=" + company.getFipsCode() + ", latitude=" + company.getLatitude()
 				+ ", longitude=" + company.getLongitude() + "]");
 			}
 			
