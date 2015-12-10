@@ -23,43 +23,20 @@ public class ParseRESTResponse {
 				company.setId(splitArray[3]);
 				company.setName(splitArray[5]);
 				company.setAddress(splitArray[7]);
-				company.setSupplementalLocation("");
-				company.setCity(splitArray[10]);
-				company.setCounty(splitArray[12]);
-				company.setState(splitArray[14]);
-				company.setZip(splitArray[16]);
-				company.setFipsCode(splitArray[18]);
-				company.setLatitude(splitArray[20]);
-				company.setLongitude(splitArray[22]);
+				company.setSupplementalLocation(splitArray[9]);
+				company.setCity(splitArray[11]);
+				company.setCounty(splitArray[13]);
+				company.setState(splitArray[15]);
+				company.setZip(splitArray[17]);
+				company.setFipsCode(splitArray[19]);
+				company.setLatitude(splitArray[21]);
+				company.setLongitude(splitArray[23]);
 			}
 			
 	
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
-		/** Here is how you get a hold of the REST response and Company facts in the working memory
-		 * java.util.Collection<org.kie.api.runtime.rule.EntryPoint> collection = (java.util.Collection<org.kie.api.runtime.rule.EntryPoint>)kcontext.getKnowledgeRuntime().getEntryPoints() ;
-    for ( org.kie.api.runtime.rule.EntryPoint entryPoint : collection ) {
-            entryPointID = entryPoint.getEntryPointId();        
-            System.out.println("Entry Point with ID: "+entryPointID);
-            for ( Object object : (java.util.Collection<Object>)entryPoint.getObjects() ) {
-                    System.out.println( "Here is the Fact object name currently present in your WorkingMemory : " + object.getClass().getName() );
-                    if (object.getClass().getName().equalsIgnoreCase("com.sample.Person")) {
-
-                            com.sample.Person personObject = (com.sample.Person)object;
-                            System.out.println("The value for 'firstName' field of 'com.sample.Person' Fact is : " + personObject.getFirstName() );
-                            System.out.println("The value for 'secondName' field of 'com.sample.Person' Fact is : " + personObject.getSecondName() );
-                    }       
-
-            }       
-   }
-		 */
-		
-		/**
-		 * Parse the REST xml string and place data into Company object
-		 * Need to find out if we can update the company object in place or if we need to clear and re-insert.
-		 */
 		return company;
 	}
 
