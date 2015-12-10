@@ -6,6 +6,13 @@
   <artifactId>poc</artifactId>
   <version>1.0</version>
   <name>poc</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.epa.workitems</groupId>
+      <artifactId>epaworkitem</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
