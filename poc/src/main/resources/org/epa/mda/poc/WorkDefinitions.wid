@@ -56,6 +56,15 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+ [
+    "name" : "EPAService",
+    "parameters" : [
+      "flowOperation" : new StringDataType(),
+      "fileName" : new StringDataType(),
+      "path" : new StringDataType()
+    ],
+    "displayName" : "EPAService",
+    "icon" : "defaultservicenodeicon.gif"
   ]
-
 ]
