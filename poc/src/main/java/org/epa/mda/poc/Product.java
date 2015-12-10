@@ -12,68 +12,71 @@ public class Product implements java.io.Serializable
    @org.kie.api.definition.type.Label("Company ID")
    private java.lang.String companyId;
 
-   @org.kie.api.definition.type.Label(value = "Brand Name")
+   @org.kie.api.definition.type.Label("Brand Name")
    private java.lang.String brandName;
 
-   @org.kie.api.definition.type.Label(value = "Company Name")
+   @org.kie.api.definition.type.Label("Company Name")
    private java.lang.String companyName;
 
-   @org.kie.api.definition.type.Label(value = "Address")
+   @org.kie.api.definition.type.Label("Address")
    private java.lang.String address;
 
-   @org.kie.api.definition.type.Label(value = "City")
+   @org.kie.api.definition.type.Label("City")
    private java.lang.String city;
 
-   @org.kie.api.definition.type.Label(value = "State")
+   @org.kie.api.definition.type.Label("State")
    private java.lang.String state;
 
-   @org.kie.api.definition.type.Label(value = "Province")
+   @org.kie.api.definition.type.Label("Province")
    private java.lang.String province;
 
-   @org.kie.api.definition.type.Label(value = "Zip Code")
+   @org.kie.api.definition.type.Label("Zip Code")
    private java.lang.String zip;
 
-   @org.kie.api.definition.type.Label(value = "Fuel Type")
+   @org.kie.api.definition.type.Label("Fuel Type")
    private java.lang.String fuelType;
 
-   @org.kie.api.definition.type.Label(value = "Unleaded Premium Gasoline")
+   @org.kie.api.definition.type.Label("Unleaded Premium Gasoline")
    private java.lang.Boolean unleadedPremGas;
 
-   @org.kie.api.definition.type.Label(value = "Unleaded Regular Gasoline")
+   @org.kie.api.definition.type.Label("Unleaded Regular Gasoline")
    private java.lang.Boolean unleadedRegGas;
 
-   @org.kie.api.definition.type.Label(value = "Unleaded Midgrade Gasoline")
+   @org.kie.api.definition.type.Label("Unleaded Midgrade Gasoline")
    private java.lang.Boolean unleadedMidGas;
 
-   @org.kie.api.definition.type.Label(value = "Grade 1 Diesel")
+   @org.kie.api.definition.type.Label("Grade 1 Diesel")
    private java.lang.Boolean grade1Diesel;
 
-   @org.kie.api.definition.type.Label(value = "Grade 2 Diesel")
+   @org.kie.api.definition.type.Label("Grade 2 Diesel")
    private java.lang.Boolean grade2Diesel;
 
-   @org.kie.api.definition.type.Label(value = "BioDiesel")
+   @org.kie.api.definition.type.Label("BioDiesel")
    private java.lang.Boolean bioDiesel;
 
-   @org.kie.api.definition.type.Label(value = "Renewable Diesel")
+   @org.kie.api.definition.type.Label("Renewable Diesel")
    private java.lang.Boolean renewableDiesel;
 
-   @org.kie.api.definition.type.Label(value = "Aromatics Percent by Weight")
+   @org.kie.api.definition.type.Label("Aromatics Percent by Weight")
    private java.lang.Integer aromaticsPercent;
 
-   @org.kie.api.definition.type.Label(value = "Olefins Percent by Weight")
+   @org.kie.api.definition.type.Label("Olefins Percent by Weight")
    private java.lang.Integer olefinsPercent;
 
-   @org.kie.api.definition.type.Label(value = "Saturates Percentage by Weight")
+   @org.kie.api.definition.type.Label("Saturates Percentage by Weight")
    private java.lang.Integer saturatesPercent;
 
-   @org.kie.api.definition.type.Label(value = "Polynuclear Organic Material Percentage by Weight")
+   @org.kie.api.definition.type.Label("Polynuclear Organic Material Percentage by Weight")
    private java.lang.Integer polynuclearOrgMatPercent;
 
-   @org.kie.api.definition.type.Label(value = "Sulfur Percentage by Weight")
+   @org.kie.api.definition.type.Label("Sulfur Percentage by Weight")
    private java.lang.Integer sulfurPercent;
 
-   @org.kie.api.definition.type.Label(value = "Trace Elements Percentage by Weight")
+   @org.kie.api.definition.type.Label("Trace Elements Percentage by Weight")
    private java.lang.Integer traceElementsPercent;
+
+   @org.kie.api.definition.type.Label(value = "ID")
+   private java.lang.String id;
 
    public Product()
    {
@@ -300,6 +303,16 @@ public class Product implements java.io.Serializable
       this.traceElementsPercent = traceElementsPercent;
    }
 
+   public java.lang.String getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.String id)
+   {
+      this.id = id;
+   }
+
    public Product(java.lang.String companyId, java.lang.String brandName,
          java.lang.String companyName, java.lang.String address,
          java.lang.String city, java.lang.String state,
@@ -311,7 +324,8 @@ public class Product implements java.io.Serializable
          java.lang.Integer aromaticsPercent, java.lang.Integer olefinsPercent,
          java.lang.Integer saturatesPercent,
          java.lang.Integer polynuclearOrgMatPercent,
-         java.lang.Integer sulfurPercent, java.lang.Integer traceElementsPercent)
+         java.lang.Integer sulfurPercent,
+         java.lang.Integer traceElementsPercent, java.lang.String id)
    {
       this.companyId = companyId;
       this.brandName = brandName;
@@ -335,6 +349,7 @@ public class Product implements java.io.Serializable
       this.polynuclearOrgMatPercent = polynuclearOrgMatPercent;
       this.sulfurPercent = sulfurPercent;
       this.traceElementsPercent = traceElementsPercent;
+      this.id = id;
    }
 
 }
