@@ -11,6 +11,8 @@ public class ParseRESTResponse {
 	static KieSession ksession;
 
 	public static Company parseResponse(Company company, String restOutput) {
+		if (company == null) { company = new Company(); }
+
 		System.out.println("Here is what came back from the REST call: " + restOutput);
 		try {
 			ksession = readKnowledgeBase();
