@@ -64,6 +64,9 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
       "fileName" : new StringDataType(),
       "path" : new StringDataType()
     ],
+    "results" : [
+        "responseStr" : new StringDataType(),
+    ],
     "displayName" : "EPAService",
     "icon" : "defaultservicenodeicon.gif"
   ]
