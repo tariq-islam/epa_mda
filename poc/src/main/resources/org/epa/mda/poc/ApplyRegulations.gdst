@@ -45,6 +45,7 @@
           <factField>busActivity1</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
+          <valueList>Refiner, Fuel Manufacturer, Fuel Additive Manufacturer</valueList>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -135,7 +136,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Refiner</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -168,7 +169,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Fuel Additive Manufacturer</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
