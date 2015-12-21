@@ -1,9 +1,0 @@
-package org.epa.mda.poc;
-
-import java.lang.Number;
-
-rule "RegisterAsFacility"
-	dialect "mvel"
-	when
-	then
-end
