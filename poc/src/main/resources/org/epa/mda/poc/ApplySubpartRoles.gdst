@@ -109,7 +109,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>251</width>
+          <width>-1</width>
           <header>Part 79 Additive Registration Subparts</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
