@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>ApplySubPartRoles</tableName>
+  <tableName>ApplySubpartRoles</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
