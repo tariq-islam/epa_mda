@@ -61,50 +61,12 @@
       <width>-1</width>
       <header>Part 79 Additive Registration Subparts</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>A - General Provisions</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>C - Additive Registration Procedures</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>D:79.31 - Designation of Fuels and Additives</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>F - Testing Requirements for Registration</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>company.addPart79Regs(&quot;F - Testing Requirements for Registration&quot;);
+company.addPart79Regs(&quot;D:79.31 - Designation of Fuels and Additives&quot;);
+company.addPart79Regs(&quot;C - Additive Registration Procedures&quot;);
+company.addPart79Regs(&quot;A - General Provisions&quot;);</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
@@ -121,55 +83,18 @@
       <width>-1</width>
       <header>Part 79 Fuel Registration Subparts</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>A - General Provisions</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>B - Fuel Registration Procedures</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>D:79.32,79.33 - Designation of Fuels and Additives</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart79Regs</field>
-              <value>F - Testing Requirements for Registration</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>company.addPart79Regs(&quot;F - Testing Requirements for Registration&quot;);
+company.addPart79Regs(&quot;D:79.32,79.33 - Designation of Fuels and Additives&quot;);
+company.addPart79Regs(&quot;A - General Provisions&quot;);
+company.addPart79Regs(&quot;B - Fuel Registration Procedures&quot;);
+</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>235</width>
+          <width>-1</width>
           <header>Part 79 Fuel Registration Subparts</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
