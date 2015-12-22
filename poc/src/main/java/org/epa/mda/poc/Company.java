@@ -267,6 +267,10 @@ public class Company implements java.io.Serializable
    {
       this.part80Regs = part80Regs;
    }
+   
+   public void addPart80Regs(java.lang.String value) {
+	   this.part80Regs.add(value);
+   }
 
    public java.util.List<java.lang.String> getPart79Regs()
    {
@@ -276,6 +280,10 @@ public class Company implements java.io.Serializable
    public void setPart79Regs(java.util.List<java.lang.String> part79Regs)
    {
       this.part79Regs = part79Regs;
+   }
+   
+   public void addPart79Regs(java.lang.String value) {
+	   this.part79Regs.add(value);
    }
 
    public Company(java.lang.String name, java.lang.String address,
