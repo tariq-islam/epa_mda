@@ -59,7 +59,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Part 79 Additive Subparts</header>
+      <header>Part 79 Additive Registration Subparts</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
@@ -109,8 +109,8 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>Part 79 Additive Subparts</header>
+          <width>251</width>
+          <header>Part 79 Additive Registration Subparts</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
@@ -119,7 +119,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Part 79 Fuel Product Subparts</header>
+      <header>Part 79 Fuel Registration Subparts</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
@@ -132,39 +132,60 @@
           </fieldValues>
           <variable>company</variable>
         </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart79Regs</field>
               <value>B - Fuel Registration Procedures</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart79Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart79Regs</field>
               <value>D:79.32,79.33 - Designation of Fuels and Additives</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart79Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>addPart79Regs</field>
+              <value>F - Testing Requirements for Registration</value>
+              <nature>1</nature>
+              <type>String</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+          </fieldValues>
+          <variable>company</variable>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>235</width>
+          <header>Part 79 Fuel Registration Subparts</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Part 80 Gasoline Regulation Subparts</header>
+      <definition>
         <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-              <field>addPart79Regs</field>
-              <value>F - Testing Requirements for Registration</value>
+              <field>addPart80Regs</field>
+              <value>A - General Provisions</value>
               <nature>1</nature>
               <type>String</type>
               <method></method>
@@ -172,14 +193,112 @@
           </fieldValues>
           <variable>company</variable>
           <state>1</state>
-          <methodName>addPart79Regs</methodName>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>B - Controls and Prohibitions</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>C - Oxygenated Gasoline</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>D - Reformulated Gasoline</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>G - Detergent Gasoline</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>H - Gasoline Sulfur</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>J - Gasoline Toxics</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>L - Gasoline Benzene</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
         </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>Part 79 Fuel Product Subparts</header>
+          <header>Part 80 Gasoline Regulation Subparts</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
@@ -253,6 +372,12 @@
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -278,6 +403,53 @@
       </value>
       <value>
         <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Gasoline Qualification</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Gasoline</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Refiner</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
