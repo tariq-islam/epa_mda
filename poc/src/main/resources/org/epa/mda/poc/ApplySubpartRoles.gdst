@@ -106,123 +106,102 @@ company.addPart79Regs(&quot;B - Fuel Registration Procedures&quot;);
       <width>-1</width>
       <header>Part 80 Gasoline Regulation Subparts</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>A - General Provisions</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>B - Controls and Prohibitions</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>C - Oxygenated Gasoline</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>D - Reformulated Gasoline</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>G - Detergent Gasoline</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>H - Gasoline Sulfur</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>J - Gasoline Toxics</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>addPart80Regs</field>
               <value>L - Gasoline Benzene</value>
               <nature>1</nature>
               <type>String</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
           <variable>company</variable>
-          <state>1</state>
-          <methodName>addPart80Regs</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>System.out.println(&quot;Size of Part 80 regulations: &quot; + company.getPart80Regs().size());</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>187</width>
+          <width>-1</width>
           <header>Part 80 Gasoline Regulation Subparts</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
