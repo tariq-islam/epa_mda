@@ -62,7 +62,8 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "parameters" : [
       "flowOperation" : new StringDataType(),
       "fileName" : new StringDataType(),
-      "path" : new StringDataType()
+      "path" : new StringDataType(),
+      "transactionId" : new StringDataType()
     ],
     "results" : [
         "responseStr" : new StringDataType(),
