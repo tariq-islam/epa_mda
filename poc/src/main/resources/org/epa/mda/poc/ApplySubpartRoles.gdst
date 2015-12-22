@@ -106,96 +106,15 @@ company.addPart79Regs(&quot;B - Fuel Registration Procedures&quot;);
       <width>-1</width>
       <header>Part 80 Gasoline Regulation Subparts</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>A - General Provisions</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>B - Controls and Prohibitions</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>C - Oxygenated Gasoline</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>D - Reformulated Gasoline</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>G - Detergent Gasoline</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>H - Gasoline Sulfur</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>J - Gasoline Toxics</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>addPart80Regs</field>
-              <value>L - Gasoline Benzene</value>
-              <nature>1</nature>
-              <type>String</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>company</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println(&quot;Size of Part 80 regulations: &quot; + company.getPart80Regs().size());</text>
+          <text>company.addPart80Regs(&quot;A - General Provisions&quot;);
+company.addPart80Regs(&quot;B - Controls and Prohibitions&quot;);
+company.addPart80Regs(&quot;C - Oxygenated Gasoline&quot;);
+company.addPart80Regs(&quot;D - Reformulated Gasoline&quot;);
+company.addPart80Regs(&quot;H - Gasoline Sulfur&quot;);
+company.addPart80Regs(&quot;J - Gasoline Toxics&quot;);
+company.addPart80Regs(&quot;L - Gasoline Benzene&quot;);
+System.out.println(&quot;Size of Part 80 regulations: &quot; + company.getPart80Regs().size());</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
