@@ -308,11 +308,40 @@
       <hideColumn>false</hideColumn>
       <width>-1</width>
       <header>Part 80 Diesel Regulation Subarts</header>
-      <definition/>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>A - General Provisions</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>addPart80Regs</field>
+              <value>B - Controls and Prohibitions</value>
+              <nature>1</nature>
+              <type>String</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>company</variable>
+          <state>1</state>
+          <methodName>addPart80Regs</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+      </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>263</width>
+          <width>-1</width>
           <header>Part 80 Diesel Regulation Subarts</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
