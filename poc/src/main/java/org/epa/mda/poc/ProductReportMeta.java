@@ -11,12 +11,16 @@ public class ProductReportMeta implements java.io.Serializable
 
    @org.kie.api.definition.type.Label(value = "Associated Product")
    private java.lang.String associatedProduct;
+
    @org.kie.api.definition.type.Label(value = "Date")
-   private java.lang.String date;
+   private java.util.Date date;
+
    @org.kie.api.definition.type.Label(value = "Signer")
    private java.lang.String signer;
+
    @org.kie.api.definition.type.Label(value = "Phone Number")
    private java.lang.String phoneNumber;
+
    @org.kie.api.definition.type.Label(value = "Contact")
    private java.lang.String contact;
 
@@ -34,12 +38,12 @@ public class ProductReportMeta implements java.io.Serializable
       this.associatedProduct = associatedProduct;
    }
 
-   public java.lang.String getDate()
+   public java.util.Date getDate()
    {
       return this.date;
    }
 
-   public void setDate(java.lang.String date)
+   public void setDate(java.util.Date date)
    {
       this.date = date;
    }
@@ -75,7 +79,7 @@ public class ProductReportMeta implements java.io.Serializable
    }
 
    public ProductReportMeta(java.lang.String associatedProduct,
-         java.lang.String date, java.lang.String signer,
+         java.util.Date date, java.lang.String signer,
          java.lang.String phoneNumber, java.lang.String contact)
    {
       this.associatedProduct = associatedProduct;
