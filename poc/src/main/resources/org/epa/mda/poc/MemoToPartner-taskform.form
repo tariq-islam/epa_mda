@@ -3,6 +3,13 @@
 <property name="name" value="MemoToReporter-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1868533477">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;quot;dequot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;quot;enquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;quot;esquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;quot;frquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;quot;jaquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;quot;ptquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;quot;zhquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <field position="1" name="response" type="InputTextArea" id="169522777">
 <property name="fieldRequired" value="false"/>
 <property name="height" value="15"/>
@@ -15,21 +22,6 @@
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="responseStrIn"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="1868533477">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;quot;dequot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;quot;enquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;quot;esquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;quot;frquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;quot;jaquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;quot;ptquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;quot;zhquot;,quot;&lt;h1&gt;Reporting Memorandum&lt;/h1&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="responseStrIn" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="response"/>
 </form>
