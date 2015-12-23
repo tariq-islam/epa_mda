@@ -62,11 +62,12 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "parameters" : [
       "flowOperation" : new StringDataType(),
       "fileName" : new StringDataType(),
-      "path" : new StringDataType()
+      "path" : new StringDataType(),
+      "transactionIdIn" : new StringDataType()
     ],
     "results" : [
         "responseStr" : new StringDataType(),
-        "transactionId" : new StringDataType()
+        "transactionIdOut" : new StringDataType()
     ],
     "displayName" : "EPAService",
     "icon" : "defaultservicenodeicon.gif"
