@@ -9,7 +9,20 @@
     <width>234</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols/>
+  <attributeCols>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueString>apply-subparts</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <attribute>ruleflow-group</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
+  </attributeCols>
   <conditionPatterns>
     <Pattern52>
       <factType>Company</factType>
@@ -253,6 +266,11 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Fuel Additive</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -302,6 +320,11 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
       </value>
       <value>
         <valueString>Fuel Product Qualification</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -359,6 +382,11 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Gasoline</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -412,6 +440,11 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Diesel</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -461,6 +494,11 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
       </value>
       <value>
         <valueString>Renewable Fuel Qualification</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
