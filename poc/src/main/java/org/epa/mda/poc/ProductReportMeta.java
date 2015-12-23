@@ -9,20 +9,23 @@ public class ProductReportMeta implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Associated Product")
+   @org.kie.api.definition.type.Label("Associated Product")
    private java.lang.String associatedProduct;
 
-   @org.kie.api.definition.type.Label(value = "Date")
+   @org.kie.api.definition.type.Label("Date")
    private java.util.Date date;
 
-   @org.kie.api.definition.type.Label(value = "Signer")
+   @org.kie.api.definition.type.Label("Signer")
    private java.lang.String signer;
 
-   @org.kie.api.definition.type.Label(value = "Phone Number")
+   @org.kie.api.definition.type.Label("Phone Number")
    private java.lang.String phoneNumber;
 
-   @org.kie.api.definition.type.Label(value = "Contact")
+   @org.kie.api.definition.type.Label("Contact")
    private java.lang.String contact;
+
+   @org.kie.api.definition.type.Label(value = "Reporting Year")
+   private java.lang.String reportingYear;
 
    public ProductReportMeta()
    {
@@ -78,15 +81,27 @@ public class ProductReportMeta implements java.io.Serializable
       this.contact = contact;
    }
 
+   public java.lang.String getReportingYear()
+   {
+      return this.reportingYear;
+   }
+
+   public void setReportingYear(java.lang.String reportingYear)
+   {
+      this.reportingYear = reportingYear;
+   }
+
    public ProductReportMeta(java.lang.String associatedProduct,
          java.util.Date date, java.lang.String signer,
-         java.lang.String phoneNumber, java.lang.String contact)
+         java.lang.String phoneNumber, java.lang.String contact,
+         java.lang.String reportingYear)
    {
       this.associatedProduct = associatedProduct;
       this.date = date;
       this.signer = signer;
       this.phoneNumber = phoneNumber;
       this.contact = contact;
+      this.reportingYear = reportingYear;
    }
 
 }
