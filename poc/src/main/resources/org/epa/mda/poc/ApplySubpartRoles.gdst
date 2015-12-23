@@ -266,7 +266,7 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>apply-subparts</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -324,7 +324,7 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>apply-subparts</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -382,7 +382,7 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>applysubparts</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -440,7 +440,7 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>apply-subparts</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -498,7 +498,7 @@ company.addPart80Regs(&quot;I - Diesel Fuel&quot;);</text>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>apply-subparts</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
